@@ -291,9 +291,9 @@ def read_flags():
     parser = argparse.ArgumentParser(
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument(
-        "--epochs", default=1, type=int, help="Number of epochs")
+        "--epochs", default=3, type=int, help="Number of epochs")
 
-    parser.add_argument("--batch-size", default=4, type=int, help="Batch size")
+    parser.add_argument("--batch-size", default=2, type=int, help="Batch size")
 
     parser.add_argument(
         "--logdir", default="logdir", help="Tensorboard log directory")
